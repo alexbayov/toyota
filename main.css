@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'toyota-font';
+    url('fonts/toyotadisplay_bd-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: #595d60;
+    font-size: 16px;
+    font-family: "toyota-font", Arial,Helvetica,sans-serif;
+}
+
+p {
+    margin-top: 5px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+h3 {
+padding: 15px;
+}
+
+h1 {
+    font-size: 45px;
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20%;
+    color: #202020;
+}
+
+.text {
+    width: 95%;
+    margin:  10px 0 10px 40px;
+}
+
+.logo {
+    background: #fff;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgba(211,211,211, 0.5);
+}
+
+.clearfix {
+    clear: both;
+}
+
+.content {
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about-comp {
+    display: table;
+    font-size: 0;
+    width: 100%;
+    background: linear-gradient(to right, #fff -7%, grey 175%);
+    min-height: 470px;
+}
+
+.about-text {
+    margin-top: 13%;
+    margin-left: 10%;
+    float: left;
+}
+/*h1::selection {*/
+    /*background: red;*/
+/*}*/
+
+.toyota-comp {
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.graficlogo {
+    margin-left: 60px;
+    padding: 15px;
+    max-width: 50px;
+    float: left;
+}
+
+.slogan {
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 20px;
+    width: 200px;
+}
+
+
+.image-big {
+    width: 33%;
+    float: left;
+}
+
+.image-small {
+    margin-top: 0.1em;
+    padding: 0.4em;
+    float: right;
+    width: 65%;
+}
+
+.img-sm {
+    width: 23%;
+    margin-right: 0.4em;
+}
+
+.img-big {
+    width: 100%;
+}
+
+.top-sm {
+    margin-bottom: 0.5em;
+}
+
+table {
+    font-size: 12px;
+    margin: 10px auto;
+    width: 85%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+td{
+    border: 1px solid #95a5a6;
+    padding: 12px;
+}
+
+.wid {
+    width: 40%;
+}
+
+/*td:nth-child(1), td:nth-child(3) {*/
+    /*width: 200px;*/
+    /*height: 50px;*/
+/*}*/
+
+hr {
+    width: 200px;
+    border-bottom: 2px solid red;
+}
+.paginator {
+    width: 215px;
+    margin: 0px auto;
+    padding: 10px;
+    white-space: nowrap;
+    background: #ecf0f1;
+    clear: both;
+}
+
+.paginator a,
+.paginator span {
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #95a5a6;
+}
+
+.paginator .disabled {
+    background: rgba(149, 165, 166, 0.4);
+}
+
+.paginator .prev {
+    margin-right: 20px;
+    text-indent: -1000px;
+    background-image: url("images/arrows.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.paginator .next {
+    margin-left: 20px;
+    text-indent: -1000px;
+    background-image: url("images/arrows.png");
+    background-repeat: no-repeat;
+    background-position: 0 -40px;
+}
+
+.paginator .current {
+    background-color: red;
+}
+
+
+/*.paginator a:hover {*/
+    /*background-color: rgba(255, 0, 0, 0.58);*/
+/*}*/
+
+.social {
+    margin-top: 15px;
+    background: linear-gradient(to bottom, #fff -7%, grey 175%);
+    width: 100%;
+    height: 90px;
+}
+
+footer {
+    background: #fff;
+    width: 100%;
+    height: 90px;
+}
+
+footer p {
+    text-align: center;
+    padding: 30px;
+}
+
